@@ -21,6 +21,7 @@ img {
 ul {
   display: flex;
   list-style-type: none;
+  justify-content: center;
 }
 
 li {
@@ -33,6 +34,11 @@ li {
   text-align: center;
   max-width: 200px;
   height: 95px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
