@@ -42,16 +42,20 @@ a {
 }
 
 .footer {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
   display: flex;
   justify-content: space-between;
 }
 
 .left-links {
-
+  display: flex;
 }
 
 .right-links {
-
+  display: flex;
 }
 
 .buttons {
