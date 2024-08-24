@@ -19,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 input {
@@ -34,11 +36,13 @@ ul {
 
 a {
   text-decoration: none;
+  padding: 5px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .footer {
@@ -48,6 +52,7 @@ a {
   background: #eee;
   display: flex;
   justify-content: space-between;
+  padding: 5px;
 }
 
 .left-links {
@@ -72,4 +77,5 @@ a {
 .input-container {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
