@@ -57,10 +57,12 @@ a {
 
 .left-links {
   display: flex;
+  padding-left: 10px;
 }
 
 .right-links {
   display: flex;
+  padding-right: 5px;
 }
 
 .buttons {
