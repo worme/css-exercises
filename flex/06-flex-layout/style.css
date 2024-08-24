@@ -59,9 +59,17 @@ a {
 }
 
 .buttons {
-
+  display: flex;
+  align-self: center;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 
+.input-container {
+  display: flex;
+  justify-content: center;
 }
