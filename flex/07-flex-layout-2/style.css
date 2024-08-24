@@ -28,7 +28,6 @@ body {
 }
 
 .sidebar {
-  width: 300px;
   background: royalblue;
   box-sizing: border-box;
   display: flex;
@@ -41,11 +40,16 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  flex: 1;
+  margin: 10px;
+  height: 300px;
+  padding: 10px;
+  flex: 0 0 300px
 }
 
 .card-container {
   display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -61,4 +65,5 @@ a {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
